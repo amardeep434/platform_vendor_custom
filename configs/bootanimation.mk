@@ -25,3 +25,8 @@ ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/custom/prebuilt/bootanimation/shamu.zip:system/media/bootanimation.zip
 endif
+ifneq ($(filter bacon,$(TARGET_PRODUCT)),)
+    PRODUCT_COPY_FILES += \
+        vendor/custom/prebuilt/bootanimation/bacon.zip:system/media/bootanimation.zip
+endif
+
