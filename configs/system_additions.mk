@@ -20,9 +20,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/etc/init.custom.rc:root/init.custom.rc
 
-PRODUCT_COPY_FILES += \
-    vendor/custom/prebuilt/apps/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk:system/priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/custom/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \

@@ -24,3 +24,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Busybox \
     PureNexusSettings
+
+PRODUCT_COPY_FILE += \
+    vendor/custom/prebuilt/apps/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk:system/app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk
+
