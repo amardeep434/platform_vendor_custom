@@ -20,6 +20,7 @@ $(call inherit-product, device/oneplus/onyx/aosp_onyx.mk)
 
 # Override AOSP build properties
 
+PRODUCT_NAME := onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
